@@ -3,6 +3,13 @@ import json
 FILENAME = "expenses.json"
 
 #Function to Load Expenses
+def add_expense():
+    expenseName= input("Enter expense name").strip().title
+
+def add_expense():
+    expenseName= input("Enter amount name ").strip().title
+
+
 def load_expenses():
     try:
         with open(FILENAME, "r") as file:
