@@ -3,12 +3,6 @@ import json
 FILENAME = "expenses.json"
 
 #Function to Load Expenses
-def add_expense():
-    expenseName= input("Enter expense name").strip().title
-
-def add_expense():
-    expenseName= input("Enter amount name ").strip().title
-
 
 def load_expenses():
     try:
@@ -24,7 +18,9 @@ def save_expenses(expenses):
 
 def add_expense():
     expenseName = input("Enter expense name:").strip().title()
-
+    expenseName= input(" Enter expense payroll").strip().title()
+    expenseName= input("Enter expense bank fees").strip().title()
+    expenseName= input("Enter expense advertising").strip().title()
     while True:
         try:
             amount= float(input("Enter amount: $").strip())
