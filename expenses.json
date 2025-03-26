@@ -3,5 +3,15 @@
         "name": "Chicken",
         "amount": 20.0,
         "category": "food"
+    },
+    {
+        "name": "Bank",
+        "amount": 120.0,
+        "category": "food"
+    },
+    {
+        "name": "Jet",
+        "amount": 20000000.0,
+        "category": "transportation"
     }
 ]

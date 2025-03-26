@@ -58,4 +58,5 @@ while True:
 
     if choice == "1":
         add_expense()
-   
+    if choice == "2":
+        view_expenses()
