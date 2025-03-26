@@ -29,6 +29,24 @@ def add_expense():
             print("Invaild error. Input a number value")
 
     category= input("Enter a Category").strip().lower()
+    categories = {"food":"Food","transportation":"Transportation","banking":"Banking","other":"Other"}
+    categories = categories.get(category,"Other")
+
+    expenses = load_expenses()
+    expenses.append({"name":expenseName,"amount":amount,"category":category})
+    save_expenses(expenses)
+
+    print("Expense " + expenseName + "added successfully!")
+
+def view_expenses():
+    expenses = load_expenses()
+
+    if not expenses:
+        print("No expenses recorded")
+        return
+    print("\nYour expenses:")
+    for expense in expenses:
+        print(expense["name"]+ "-$"+ str(expense["amount"]) + expense["category"])
 
 # MAIN
 while True:
@@ -40,3 +58,4 @@ while True:
 
     if choice == "1":
         add_expense()
+   
