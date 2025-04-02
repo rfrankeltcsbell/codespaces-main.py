@@ -13,5 +13,15 @@
         "name": "Jet",
         "amount": 20000000.0,
         "category": "transportation"
+    },
+    {
+        "name": "Router",
+        "amount": 400.0,
+        "category": "catergory"
+    },
+    {
+        "name": "Fees",
+        "amount": 100.0,
+        "category": "money"
     }
 ]
