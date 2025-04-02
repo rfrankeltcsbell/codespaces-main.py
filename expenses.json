@@ -1,18 +1,8 @@
 [
     {
-        "name": "Chicken",
-        "amount": 20.0,
-        "category": "food"
-    },
-    {
         "name": "Bank",
         "amount": 120.0,
         "category": "food"
-    },
-    {
-        "name": "Jet",
-        "amount": 20000000.0,
-        "category": "transportation"
     },
     {
         "name": "Router",
@@ -20,8 +10,8 @@
         "category": "catergory"
     },
     {
-        "name": "Fees",
-        "amount": 100.0,
-        "category": "money"
+        "name": "Food",
+        "amount": 1000.0,
+        "category": "trip"
     }
 ]

@@ -95,7 +95,7 @@ while True:
     print("1. Add Expense")
 
 
-    choice = input ("Select an option (1-4) ").strip()
+    choice = input ("Select an option (1-5) ").strip()
 
     if choice == "1":
         add_expense()
@@ -108,6 +108,7 @@ while True:
     elif choice =="4":
         print("\nGoodbye!")
         break
+    elif choice == "5":
+        delete_expenses()
     else:
         print("Invaild Choice,Try again")
-
