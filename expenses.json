@@ -1,17 +1,1 @@
-[
-    {
-        "name": "Bank",
-        "amount": 120.0,
-        "category": "food"
-    },
-    {
-        "name": "Router",
-        "amount": 400.0,
-        "category": "catergory"
-    },
-    {
-        "name": "Food",
-        "amount": 1000.0,
-        "category": "trip"
-    }
-]
+[]

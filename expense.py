@@ -104,11 +104,12 @@ while True:
         view_expenses()
     elif choice =="3":
         summarize_expense()
-    
-    elif choice =="4":
+    elif choice=="4":
+        delete_expenses()
+   
+    elif choice =="5":
         print("\nGoodbye!")
         break
-    elif choice == "5":
-        delete_expenses()
+   
     else:
         print("Invaild Choice,Try again")
